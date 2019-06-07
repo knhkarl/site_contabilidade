@@ -1,0 +1,24 @@
+.features .item {
+  min-height:100px;
+  padding-left:85px;
+  margin-bottom:40px;
+}
+
+.features .item .name {
+  font-size:20px;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+.features .item .description {
+  font-size:15px;
+  margin-bottom:0;
+}
+
+.features .item .icon {
+  font-size:40px;
+  color:#ffcc1e;
+  float:left;
+  margin-left:-65px;
+}

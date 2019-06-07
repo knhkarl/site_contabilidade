@@ -1,0 +1,80 @@
+.areas .areas_part_iner {
+    background: linear-gradient(135deg, #000000,  #e5474b);
+    padding: 50px 24px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+
+.areas .areas_part_iner .button {
+  background-color: #fff;
+}
+
+  .areas .areas_part_iner .button:hover {
+    background-color: #5a5a5a;
+    color: #fff !important;
+  }
+  
+  @media (max-width: 576px) {
+    .areas .areas_part_iner {
+      padding: 35px 14px;
+      margin: 10px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .areas .areas_part_iner {
+      padding: 35px 14px;
+      margin: 10px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .areas .areas_part_iner {
+      padding: 35px 14px;
+      margin: 10px 0px;
+    }
+  }
+
+  .areas .areas_part_iner h3 {
+    font-weight: 600;
+    margin-bottom: 26px;
+    font-size: 22px;
+    color: #ffc107;
+    font-family: "Lato", sans-serif;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .areas .areas_part_iner h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  .areas .areas_part_iner p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.8;
+    font-weight: 400;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .areas .areas_part_iner p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+  
+  .areas .areas_part:hover .areas_part_iner {
+    background: #f1f1f1;
+    border: 1px solid black;
+  }
+  
+  .areas .areas_part:hover .areas_part_iner p {
+    color: #000000;
+  }
