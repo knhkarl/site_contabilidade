@@ -430,6 +430,7 @@
 
 	@media screen and (max-width: 520px) {
 		ul.actions li {
+			padding: 0;
 			padding-bottom: 1em;
 			align-items: center;
 		}
@@ -1009,6 +1010,16 @@
 			left: auto;
 		  } 
 		}
+		@media (max-width: 388px) {
+			.testimony .social {
+				bottom: .5em !important;
+			} 
+		}
+		@media (max-width: 388px) {
+			.testimony .social a{
+				padding: 0 0 0 .5em !important;
+			}
+		}
 		.testimony img {
 		  max-width: 100px;
 		  border-radius: 50%;
@@ -1023,7 +1034,10 @@
 		  font-size: 18px; 
 		}
 		.testimony .social {
-			padding-top: 4em;
+			left: 50%;
+			position: absolute;
+			transform: translateX(-50%);
+			bottom: 1em;
 		}
 		.testimony .social a{
 		  padding: 0 0 0 1em;
